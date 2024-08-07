@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Healthcare Services</title>
+    <link rel="stylesheet" href="home.css">
+<!-- icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><i class="fa fa-bars" style="margin-top: 20px; margin-right: 10px; margin-left: 5px;" ></i><a href="#"> </a> </li>
+            <li> <a href="./index.html"> Home </a></li>
+            <li> <a href="./about.html"> About  </a></li>
+            <li> <a href="./services.html"> Services </a></li>
+            <li> <a href="./doctor.html"> Doctors </a></li>
+            <li> <a href="./contact.html"> Contact </a></li>
+            <li > <a href="./faq.html"> FAQ </a></li>
+           
+        </ul>
+        <ul>
+<li style="text-transform: uppercase; margin-right: 400px; font-weight: bold;" > <a href="#"> <i class="fa fa-ambulance"></i> &nbsp; &nbsp;Health Care </a></li>
+            <li class="hideonmobile"> <a href="./index.html" > Home </a></li>
+            <li class="hideonmobile"> <a href="./about.html"> About  </a></li>
+            <li class="hideonmobile"> <a href="./services.html"> Services </a></li>
+            <li class="hideonmobile"> <a href="./doctor.html"> Doctors </a></li>
+            <li class="hideonmobile"> <a href="./contact.html"> Contact </a></li>
+            <li class="hideonmobile"> <a href="./faq.html"> FAQ </a></li>
+         <li onclick="showSidebar()" class="menu-btn"> <i class="fa fa-bars" style="margin-top: 20px; margin-right: 10px; margin-left: 5px;" ></i></li>
+         
+        </ul>
+   
+    </nav>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+
+      <div class="now">
+  <br> <br> <br> <br> 
+      <h2>Personal Care for your healthy living</h2>
+      <center><b><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Voluptas molestiae atque, laudantium eaque perspiciatis porro <br> optio pariatur libero sint reiciendis dolore eius a omnis odio <br>
+         culpa esse aperiam eos repudiandae.</p> </b> </center>
+        <b> <button> <a href="./appointment.html"> BOOK AN APPOINTMENT</a></button></b>
+      </div>
+     
+  
+        <div id="redbox">
+       <marquee> EMG/NCV & EEG services are available in Mamji Hospital, CT scan, MRI, UFM, LABORATORY TEST, X-RAY facilities are available in Mamji Hospital 24 hours, Laboratory facility now on ground floor OPD
+      </marquee>
+          </div>
+
+          <br> 
+
+          <div class="noww">
+            <br> <br> <br> <br> 
+                <h2 class="text-white"></h2>
+          </div>
+
+          <br>
+          <br>
+
+          <div class="hhc">
+            <p>Home Healthcare Services provide high quality affordable medical services within the comfort of your home. Our services also aim to provide convenience to those patients who find it difficult to travel to health care centres to avail these services. Our highly skilled and experienced team of Doctors, Nurses and Physiotherapists provide care with compassion at your doorstep.
+            This service is specifically designed to meet the health care needs of elderly people, people with chronic illnesses and disabilities, who are home bound, patients recovering from surgery or post discharge patients having special health care needs.</p>
+          </div>
+          
+          <br>
+          
+          <div class="serv">
+            
+            <div class="boxxx">
+                <center><h2>Services</h2></center>
+            <br>
+                <h5>Doctor's Visit</h5>
+                <p>Our qualified Family Physicians and Consultants perform a comprehensive evaluation of patients and also provide a treatment plan to meet their health care needs.</p>
+                <br>
+                <h6>For appointment:</h6>
+                <p>Call us at 0300-0659908 & 021-34413116 <br>
+                Monday to Saturday: 9:00 am to 8:00 pm.</p>
+            </div>
+            <div class="boxxx">
+                <h5>Nurse visit</h5>
+                <p>Our skilled and experienced nurses can visit patient’s home to perform spot nursing procedures. We ensure to maintain continuity of nursing care for our post discharge patients who have special health care needs. The procedures include:
+                    <ul class="hhcul">
+                        <li>Injections (Intramuscular and intravenous)</li>
+                        <li>IV medication administration</li>
+                        <li>Dressings</li>
+                        <li>Catheterization</li>
+                        <li>N/G Tube</li>
+                        <li>Hygiene Care</li>
+                        <li>Nebulization</li>
+                        <li>Speech Therapy</li>
+                        <li>Swallow Assessment</li>
+                    </ul>
+                </p>
+                <br>
+                <h6>For appointment:</h6>
+                <p>Call us at 0300-0659908 & 021-34413116 <br>
+                Monday to Saturday: 9:00 am to 8:00 pm.</p>
+            </div>
+            <div class="boxxx">
+                <h5>Physiotherapist visit</h5>
+                <p>Skilled physiotherapists (male and female) provide rehabilitation services at home for patients who are elderly, suffering from any disability, recovering from chronic illness or surgery.</p>
+                <br>
+                <h6>For appointment:</h6>
+                <p>Call us at 0300-0659908 & 021-34413116 <br>
+                Monday to Saturday: 9:00 am to 8:00 pm.</p>
+            </div>
+            <div class="boxxx">
+                <h5>Home Laboratory Sample Collection</h5>
+                <p>We provide facility for blood sample collection and COVID sample collection at your doorstep with NO extra charges. Lab results can also be accessed online.</p>
+                <br>
+                <h6>For appointment:</h6>
+                <p>Call us at 0300-0659908 & 021-34413116 <br>
+                Monday to Saturday: 9:00 am to 8:00 pm.</p>
+            </div>
+            <div class="boxxx">
+                <h5>Medicine Delivery at your Home from our Pharmacy</h5>
+                <p> National Hospital offers "Home Medication Delivery Services" to you. Send your valid prescription on our WhatsApp number 0300-0458646.</p>
+                <br>
+                <h6>For appointment:</h6>
+                <p>Call us at 0300-0659908 & 021-34413116 <br>
+                Monday to Saturday: 9:00 am to 8:00 pm.</p>
+            </div>
+          </div>
+
+          
+        <br><br>
+
+        <br><br>
+       
+
+
+        <div id="footer">
+            <div class="health">
+              <ul>
+              <li style="text-transform: uppercase; margin-right: 0px; font-weight: bold;" > <a href="#"> <i class="fa fa-ambulance"></i> &nbsp; &nbsp;Health Care </a></li>
+              </ul>
+              <p style="color: white; margin: 30px 0px;">Our family centered approach to healthcare <br>ensures that each member of your family <br>recieved personilized attention</p>  
+          
+            <ul class="social-icons" style="display: flex;">
+            <li style="list-style: none;"> <a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li style="list-style: none;"> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li style="list-style: none;"> <a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li style="list-style: none;"> <a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+            </div>
+            <div class="links">
+              <h4>Quick Links</h4>
+              <br>
+            <ul class="menu">
+              <li><a href="./index.html"> Home</a></li>
+              <li><a href="./about.html"> About </a></li>
+              <li><a href="./services.html"> Services</a></li>
+              <li><a href="./doctor.html"> Doctor</a></li>
+              <li><a href="./contact.html"> Contact</a></li>
+              <li><a href="./faq.html"> FAQ</a></li>
+            </ul>
+            </div>
+            <div class="contact">
+              <h4>Contact Details </h4>
+              <br>
+            <ul class="menu">
+              <li><a href="#"> <i class="fa fa-location-dot"></i> &nbsp; &nbsp; block 13 nazmabad karachi </a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i> &nbsp; &nbsp; healthcare@gmail.com </a></li>
+              <li><a href="#"><i class="fa fa-phone"></i> &nbsp; &nbsp; +01 547 546 7539</a></li>
+              <li><a href="#"> <i class="fa fa-timer"></i> &nbsp; &nbsp; 8 AM-5 PM, Monday-Saturday</a></li>
+            </ul>
+            </div>
+            <div class="news">
+              <br>
+              <h4>Newsletter</h4>
+              <br>
+              <h4>Subscribe To Our Newsletter</h4>
+              <p> Stay informed and never miss out on the <br> latest news, health tips.</p>
+            
+            </div>
+        </div>
+             <div id="redbox">
+            <center><p style="margin-top: 0px;">© 2024 Mamji Hospital. All rights reserved.</p></center>
+        </div>
+              
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare</title>
+   <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><i class="fa fa-bars" style="margin-top: 20px; margin-right: 10px; margin-left: 5px;" ></i><a href="#"> </a> </li>
+            <li> <a href="./index.html"> Home </a></li>
+            <li> <a href="./about.html"> About  </a></li>
+            <li> <a href="./services.html"> Services </a></li>
+            <li> <a href="./doctor.html"> Doctors </a></li>
+            <li> <a href="./contact.html"> Contact </a></li>
+            <li> <a href="./faq.html"> FAQ </a></li>
+           
+        </ul>
+        <ul>
+<li style="text-transform: uppercase; margin-right: 450px; font-weight: bold;" > <a href="#"> <i class="fa fa-ambulance"></i> &nbsp; &nbsp;Health Care </a></li>
+            <li class="hideonmobile"> <a href="./index.html" > Home </a></li>
+            <li class="hideonmobile"> <a href="./about.html"> About  </a></li>
+            <li class="hideonmobile"> <a href="./services.html"> Services </a></li>
+            <li class="hideonmobile"> <a href="./doctor.html"> Doctors </a></li>
+            <li class="hideonmobile"> <a href="./contact.html"> Contact </a></li>
+            <li class="hideonmobile"> <a href="./faq.html"> FAQ </a></li>
+         <li onclick="showSidebar()" class="menu-btn"> <i class="fa fa-bars" style="margin-top: 20px; margin-right: 10px; margin-left: 5px;" ></i></li>
+         
+        </ul>
+   
+    </nav>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    <div class="now2" style="background-image:url(./images/banner.jpeg);">
+<br> <br> <br> <br> 
+    <h2>contact us</h2> 
+   
+    <br><br><br>
+    </div>
+    <div id="redbox">
+        <marquee> EMG/NCV & EEG services are available in Mamji Hospital, CT scan, MRI, UFM, LABORATORY TEST, X-RAY facilities are available in Mamji Hospital 24 hours, Laboratory facility now on ground floor OPD
+       </marquee>
+   
+           </div>
+<br><br>
+
+<div class="container">
+  <main class="row">
+    <section class="col left">
+<div class="contactTtile">
+  <h3>Get In Touch</h3>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor ipsum maxime, inventore libero quo quibusdam quidem.</p>
+</div>
+<div class="contactInfo">
+  <div class="iconGroup">
+    <div class="icon">
+      <i class="fa fa-phone"></i>
+    </div>
+    <div class="details">
+      <span>Phone</span>
+      <span>+00 110 111 001</span>
+    </div>
+  </div>
+
+  <div class="contactInfo">
+    <div class="iconGroup">
+      <div class="icon">
+        <i class="fa fa-envelope"></i>
+      </div>
+      <div class="details">
+        <span>Email</span>
+        <span>dhsadaj@gmail.com</span>
+      </div>
+    </div>
+
+    <div class="contactInfo">
+      <div class="iconGroup">
+        <div class="icon">
+          <i class="fa fa-location-dot"></i>
+        </div>
+        <div class="details">
+          <span>Location</span>
+          <span> X street, Y Road, karachi Pakistan</span>
+        </div>
+      </div>
+
+</div>
+<div class="socialMedia">
+  <a href="#"> <i class="fa fa-facebook"></i></a>
+  <a href="#"> <i class="fa fa-twitter"></i></a>
+  <a href="#"> <i class="fa fa-youtube"></i></a>
+  <a href="#"> <i class="fa fa-linkedin"></i></a>
+</div>
+
+
+    </section>
+    <section class="col right">
+<form class="messageForm">
+
+  <div class="inputGroup halfWidth">
+<input type="text" name="" required>
+<label>Your Name</label>
+  </div>
+
+  <div class="inputGroup halfWidth">
+    <input type="email" name="" required>
+    <label>Email</label>
+      </div>
+
+      <div class="inputGroup fullWidth">
+        <input type="text" name="" required>
+        <label>Subject</label>
+          </div>
+
+          <div class="inputGroup halfWidth">
+          <textarea required></textarea>
+            <label>Message</label>
+              </div>
+
+              <div class="inputGroup fullWidth">
+                <button class="send">Send Message</button>
+                  </div>
+</form>
+
+    </section>
+  </main>
+</div>
+<div id="footer">
+    <div class="health">
+      <ul>
+      <li style="text-transform: uppercase; margin-right: 0px; font-weight: bold;" > <a href="#"> <i class="fa fa-ambulance"></i> &nbsp; &nbsp;Health Care </a></li>
+      </ul>
+      <p style="color: white; margin: 30px 0px;">Our family centered approach to healthcare <br>ensures that each member of your family <br>recieved personilized attention</p>  
+  
+    <ul class="social-icons" style="display: flex;">
+    <li style="list-style: none;"> <a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li style="list-style: none;"> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+    <li style="list-style: none;"> <a href="#"><i class="fa fa-youtube"></i></a></li>
+    <li style="list-style: none;"> <a href="#"><i class="fa fa-twitter"></i></a></li>
+    </ul>
+    </div>
+    <div class="links">
+      <h4>Quick Links</h4>
+      <br>
+    <ul class="menu">
+      <li><a href="./index.html"> Home</a></li>
+      <li><a href="./about.html"> About </a></li>
+      <li><a href="./service.html"> Services</a></li>
+      <li><a href="./doctor.html"> Doctor</a></li>
+      <li><a href="./contact.html"> Contact</a></li>
+      <li><a href="./faq.html"> FAQ</a></li>
+    </ul>
+    </div>
+    <div class="contact">
+      <h4>Contact Details </h4>
+      <br>
+    <ul class="menu">
+      <li><a href="#"> <i class="fa fa-location-dot"></i> &nbsp; &nbsp; block 13 nazmabad karachi </a></li>
+      <li><a href="#"><i class="fa fa-envelope"></i> &nbsp; &nbsp; healthcare@gmail.com </a></li>
+      <li><a href="#"><i class="fa fa-phone"></i> &nbsp; &nbsp; +01 547 546 7539</a></li>
+      <li><a href="#"> <i class="fa fa-timer"></i> &nbsp; &nbsp; 8 AM-5 PM, Monday-Saturday</a></li>
+    </ul>
+    </div>
+    <div class="news">
+      <br>
+      <h4>Newsletter</h4>
+      <br>
+      <h4>Subscribe To Our Newsletter</h4>
+      <p> Stay informed and never miss out on the <br> latest news, health tips.</p>
+    
+    </div>
+     </div>
+     <div id="redbox">
+      <p style="margin-top: 0px;">© 2024 Health care Hospital. All rights reserved.</p>
+      </div>
+  
+      </body>
+      </html>
